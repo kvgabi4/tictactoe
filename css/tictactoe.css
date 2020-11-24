@@ -1,0 +1,53 @@
+html {
+    font-size: 24px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.tictactoe {
+    display: flex;
+    flex-direction: column;
+}
+
+.tictactoe__row {
+    display: flex;
+}
+
+.tictactoe__cell {
+    background-color: rgb(226, 210, 119);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: .2rem;
+    height: 3rem;
+    padding: .95rem 1.1rem;
+    width: 3rem;
+}
+
+.hide {
+    display: none;
+}
+
+.newGame {
+    border-radius: .2rem;
+    font-size: .8rem;
+    height: 2rem;
+    padding: .2rem 1.5rem;
+    margin: 1rem;
+    width: 7rem;
+}
+
+.winer {
+    padding: .1rem;
+    text-align: center;
+    width: 9rem;
+}
